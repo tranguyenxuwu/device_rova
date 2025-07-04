@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
 
 # ANT
 PRODUCT_PACKAGES += \
-    AntHalService
+    #AntHalService
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -116,7 +116,7 @@ PRODUCT_PACKAGES += \
 
 # Configstore
 PRODUCT_PACKAGES += \
-    disable_configstore
+    #disable_configstore
 
 # Consumer IR
 PRODUCT_PACKAGES += \
@@ -252,7 +252,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm \
+    #vendor.lineage.livedisplay@2.0-service-sdm \
     vendor.lineage.livedisplay@2.0-service-sysfs
 
 # Media
