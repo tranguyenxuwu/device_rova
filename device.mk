@@ -104,10 +104,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6:64 \
     libstdc++_vendor
 
-# Cgroup Abstraction Layer
+# Cgroup Abstraction Layer -  comment out for Android 16
 PRODUCT_COPY_FILES += \
-    system/core/libprocessgroup/profiles/cgroups_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
-    system/core/libprocessgroup/profiles/task_profiles_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+#     system/core/libprocessgroup/profiles/cgroups_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
+#     system/core/libprocessgroup/profiles/task_profiles_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
 
 # Charger
 PRODUCT_PACKAGES += \
