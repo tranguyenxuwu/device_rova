@@ -130,6 +130,8 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.
 BOARD_KERNEL_CMDLINE += earlycon=msm_hsl_uart,0x78b0000
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery cgroup_disable=pressure printk.devkmsg=on
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/7824900.sdhci
+#SELinux for debugging
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
