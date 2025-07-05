@@ -4,8 +4,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE                  := libdrmutils
 LOCAL_VENDOR_MODULE           := true
 LOCAL_MODULE_TAGS             := optional
-LOCAL_C_INCLUDES              := external/libdrm \
-                                 $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
+LOCAL_C_INCLUDES              := external/libdrm
 LOCAL_SHARED_LIBRARIES        := libdrm libdl
 LOCAL_CFLAGS                  := -DLOG_TAG=\"DRMUTILS\" -Wall -Werror -fno-operator-names
 LOCAL_CLANG                   := true
