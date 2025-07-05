@@ -5,7 +5,7 @@ include $(LOCAL_PATH)/../../../common.mk
 LOCAL_MODULE                  := libsdmcore
 LOCAL_VENDOR_MODULE           := true
 LOCAL_MODULE_TAGS             := optional
-LOCAL_C_INCLUDES              := $(common_includes) $(kernel_includes)
+LOCAL_C_INCLUDES              := $(common_includes)
 LOCAL_HEADER_LIBRARIES        := display_headers
 LOCAL_CFLAGS                  := -Wno-unused-parameter -fexceptions -DLOG_TAG=\"SDM\" \
                                  $(common_flags)

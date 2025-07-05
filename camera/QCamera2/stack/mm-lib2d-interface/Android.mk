@@ -32,7 +32,7 @@ ifeq ($(strip $(TARGET_USES_ION)),true)
     LOCAL_CFLAGS += -DUSE_ION
 endif
 
-LOCAL_HEADER_LIBRARIES += generated_kernel_headers
+#LOCAL_HEADER_LIBRARIES += generated_kernel_headers
 
 LOCAL_SRC_FILES := \
     src/mm_lib2d.c
