@@ -1,1 +1,1 @@
-../../../techpack/camera-legacy/include/uapi/media/msm_cam_sensor-legacy.h
+../../../../kernel/xiaomi/rova/techpack/camera-legacy/include/uapi/media/msm_cam_sensor-legacy.h
