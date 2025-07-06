@@ -30,3 +30,12 @@ TARGET_BOOT_ANIMATION_RES := 720
 # Overlay
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Product properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=280
+
+# Additions to PRODUCT_PACKAGES
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1-impl-qti \
+    android.hardware.health@2.1-service
