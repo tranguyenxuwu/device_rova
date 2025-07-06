@@ -1,1 +1,1 @@
-../../../techpack/camera-legacy/include/uapi/media/msmb_camera-legacy.h
+../../../../kernel/xiaomi/rova/techpack/camera-legacy/include/uapi/media/msmb_camera-legacy.h
